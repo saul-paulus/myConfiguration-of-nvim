@@ -25,8 +25,25 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
 "==============
+"
+"
+"==================FZF & vim-router===========
+"
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
+
+
+"
+"+++++++++++++++++++++++++++++++++
+"==============================dasbor===========
+"
+
+Plug 'glepnir/dashboard-nvim'
+"
+"+++++++++++++++++++++++
+
 call plug#end()
 
 
@@ -35,4 +52,5 @@ source $HOME/.config/nvim/coc.vim
 source $HOME/.config/nvim/mappings.vim
 source $HOME/.config/nvim/seting.vim
 source $HOME/.config/nvim/airline.vim
+source $HOME/.config/nvim/fzf.vim
 source $HOME/.config/nvim/onedark.vim
