@@ -21,27 +21,22 @@ Plug 'jnwhiteh/vim-golang'
 
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-
 Plug 'honza/vim-snippets'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "==============
-"
-"
+
+
 "==================FZF & vim-router===========
-"
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 "+++++++++++++++++++++++++++++++++
-"
+
 "=========Split-term===================
 Plug 'vimlab/split-term.vim'
 
-
 "======================tag html=======
 Plug 'alvan/vim-closetag'
-"
 "========================
 
 "==============================dasbor===========
