@@ -59,7 +59,9 @@ set ls=2                    " allways show status line:w
 vmap <leader>f  <Plug>(coc-format-selected)
 nmap <leader>f  <Plug>(coc-format-selected)
 
-
+"------------------------split-----------
+"
+let g:split_term_default_shell = "bash"
 
 command! -nargs=0 Prettier :call CocAction('runCommand', 'prettier.formatFile')
 

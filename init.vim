@@ -33,10 +33,17 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
-
-
-"
 "+++++++++++++++++++++++++++++++++
+"
+"=========Split-term===================
+Plug 'vimlab/split-term.vim'
+
+
+"======================tag html=======
+Plug 'alvan/vim-closetag'
+"
+"========================
+
 "==============================dasbor===========
 "
 
@@ -54,3 +61,9 @@ source $HOME/.config/nvim/seting.vim
 source $HOME/.config/nvim/airline.vim
 source $HOME/.config/nvim/fzf.vim
 source $HOME/.config/nvim/onedark.vim
+source $HOME/.config/nvim/closetag.vim
+
+
+
+
+

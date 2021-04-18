@@ -10,8 +10,8 @@
     "UltiSnips",
     "~/.config/nvim/utils/snips"
   ],
-   "coc.preferences.formatOnSaveFiletypes": ["css", "markdown"],
-// explorer
+   
+  // explorer
   "explorer.width": 30,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
@@ -19,4 +19,33 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
+  //eslint seting
+    "eslint.format.enable": true,
+    "eslint.execArgv": [],
+    "eslint.packageManager": ["npm"],
+    "eslint.alwaysShowStatus": false,
+    "eslint.nodeEnv": null,
+    "eslint.nodePath": null,
+    "eslint.options": {},
+    "eslint.trace.server": "off",
+    "eslint.run": "onSave",
+    "eslint.autoFixOnSave":true,
+    "eslint.quiet": false,
+    "eslint.onIgnoredFiles": "warn",
+    "eslint.probe":["javascript","javascriptreact","typescript","typescriptreact","html","vue","markdown"],
+    "eslint.runtime": null,
+    "eslint.debug": false,
+    "eslint.codeAction.disableRuleComment": {
+      "enable": true,
+      "location": "separateLine"
+    },
+    "eslint.codeAction.showDocumentation": {
+      "enable": true
+    },
+    /*
+    "eslint.format.enable": false,
+    "eslint.lintTask.options": [
+      "."
+    ]
+    */
 }
