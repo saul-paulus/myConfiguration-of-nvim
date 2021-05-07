@@ -42,10 +42,41 @@
     "eslint.codeAction.showDocumentation": {
       "enable": true
     },
-    /*
-    "eslint.format.enable": false,
+    
+    //"eslint.format.enable": false,
     "eslint.lintTask.options": [
       "."
-    ]
-    */
+    ],
+    // html configuration
+    "html.enable":true,
+    "html.execArgv":[],
+    "html.trace.server":["off","messages","verbose"],
+    "html.filetypes":["html","handlebars","htmldjango","blade"],
+    "html.format.enable":true,
+    "html.format.wrapLineLength":0,
+    "html.format.unformatted":"wbr",
+    "html.format.contentUnformatted":"pre,code,textarea",
+    "html.format.indentInnerHtml":false,
+    "html.format.preserveNewLines":true,
+    "html.format.maxPreserveNewLines":null,
+    "html.format.indentHandlebars":false,
+    "html.format.endWithNewline":false,
+    "html.format.extraLiners":"head, body, /html",
+    "html.format.wrapAttributes": ["auto","force","force-aligned","force-expand-multiline"],
+    "html.suggest.ionic":true,
+    "html.suggest.html5":true,
+    "html.validate.scripts":true,
+    "html.validate.styles":true,
+    "html.validate.html":true,
+    "html.autoClosingTags":false
+
+
+
+
+
+    
+
+
+
+    
 }

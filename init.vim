@@ -14,18 +14,21 @@ Plug 'joshdick/onedark.vim'
 "airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+"eslint
+Plug 'w0rp/ale'
+"Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 
+Plug 'sbdchd/neoformat'
 Plug 'jnwhiteh/vim-golang'
 
-"COC-neovim=================
-
+"deicon-neovim=================
+Plug 'ryanoasis/vim-devicons'
 " Stable version of coc
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'honza/vim-snippets'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
 "==============
 
-
+"deople===============
 "==================FZF & vim-router===========
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
@@ -45,6 +48,8 @@ Plug 'alvan/vim-closetag'
 Plug 'glepnir/dashboard-nvim'
 "
 "+++++++++++++++++++++++
+
+Plug 'dracula/vim'
 
 call plug#end()
 
